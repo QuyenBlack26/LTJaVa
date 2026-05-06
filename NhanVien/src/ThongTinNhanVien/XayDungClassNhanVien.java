@@ -3,73 +3,110 @@ import java.util.*;
 
 public class XayDungClassNhanVien 
 {
-	public class NhanVien
+	public static class NhanVien
 	{
-		private String Ho,Ten;
-		private int SoLuongSP;
-		
-		public NhanVien(String Ho, String Ten, int SoLuongSP)
-		{
-			this.Ho = Ho;
-			this.Ten = Ten;
-			this.SoLuongSP = SoLuongSP; 
-		}
-		
-		public String getho()
-		{
-			return Ho;
-		}
-		public void setho(String ho)
-		{
-			this.Ho = ho;
-		}
-		
-		public String geten()
-		{
-			return Ten;
-		}
-		public void setten(String ten)
-		{
-			this.Ten = ten;
-		}
-		
-		public int getSoLuongSP()
-		{
-			return SoLuongSP;
-		}
-		public void setSoLuongSP(int SP)
-		{
-			this.SoLuongSP = SP;
-		} 
+	    private String Ho, Ten;
+	    private int SoLuongSP;
 
-		
-		
+	    public NhanVien(String Ho, String Ten, int SoLuongSP)
+	    {
+	        this.Ho = Ho;
+	        this.Ten = Ten;
+
+	        if (SoLuongSP < 0)
+	            this.SoLuongSP = 0;
+	        else
+	            this.SoLuongSP = SoLuongSP;
+	    }
+
+	    public String getHo() { return Ho; }
+	    public String getTen() { return Ten; }
+	    public int getSoLuongSP() { return SoLuongSP; }
+
+	    public double getLuong()
+	    {
+	        double donGia;
+
+	        if (SoLuongSP <= 199) donGia = 0.5;
+	        else if (SoLuongSP <= 399) donGia = 0.55;
+	        else if (SoLuongSP <= 599) donGia = 0.6;
+	        else donGia = 0.65;
+
+	        return SoLuongSP * donGia;
+	    }
+
+	    public boolean LonHon(NhanVien nv2)
+	    {
+	        return this.SoLuongSP > nv2.SoLuongSP;
+	    }
 	}
 
 	public static void main(String[] args) 
 	{
-		int n = 0;
-		System.out.println("Nhap so Nhan Vien muon nhap : ");
-		Scanner sc = new Scanner(System.in);
-		n = sc.nextInt();
-		// TODO Auto-generated method stub
-		try
-		{	
-			for (int i = 0; i < n ; i++ )
-			{
-				String Ho = sc.nextLine();
-				String Ten = sc.nextLine();
-				int SoLuongSP = sc.nextInt();
-			}
-		}
-		catch(Exception ex)
-		{
-			ex.printStackTrace();
-		}
-		finally
-		{
-			
-		}
+		 Scanner sc = new Scanner(System.in);
+	     NhanVien[] ds = null;
+	     try
+	     {
+	         System.out.print("Nhap so nhan vien: ");
+	         int n = sc.nextInt();
+	         sc.nextLine();
+
+	         ds = new NhanVien[n];
+
+	         for (int i = 0; i < n; i++)
+	         {
+	             System.out.println("Nhan vien thu " + (i + 1));
+
+	             System.out.print("Ho: ");
+	             String ho = sc.nextLine();
+
+	             System.out.print("Ten: ");
+	             String ten = sc.nextLine();
+
+	             int sp = 0;
+	             boolean hopLe = false;
+	             while (!hopLe)
+	             {
+			          try
+			          {
+				          System.out.print("So san pham: ");
+				          sp = sc.nextInt();
+				          sc.nextLine();
+				          hopLe = true;
+			          }
+			          catch (InputMismatchException e)
+			          {
+				          System.out.println("Phai nhap so nguyen !");
+				           sc.nextLine();
+			          }
+			     }
+		
+	             ds[i] = new NhanVien(ho, ten, sp);
+	           }
+
+	            for (NhanVien nv : ds)
+	            {
+	                System.out.println(nv.getHo() + " " + nv.getTen() + " & So Luong San pham : " + nv.getLuong());
+	            }
+
+	            if (ds.length >= 2)
+	            {
+	                if (ds[0].LonHon(ds[1]))
+	                    System.out.println("NV1 nhieu san pham hon NV2");
+	                else
+	                    System.out.println("NV2 nhieu san pham hon NV1");
+	            }
+
+	        }
+	        catch (Exception e)
+	        {
+	            System.out.println("Loi chuong trinh: " + e.getMessage());
+	        }
+	        finally
+	        {
+	            System.out.println("Da ket thuc chuong trinh");
+	            sc.close(); 
+	        }
 
 	}
 
