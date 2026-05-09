@@ -92,7 +92,7 @@ public class XayDungClassNhanVien
 	            if (ds.length >= 2)
 	            {
 	                if (ds[0].LonHon(ds[1]))
-	                    System.out.println("NV1 nhieu san pham hon NV2");
+	                    System.out.println("NV" +ds.length +" nhieu san pham hon NV2");
 	                else
 	                    System.out.println("NV2 nhieu san pham hon NV1");
 	            }
