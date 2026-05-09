@@ -1,81 +1,63 @@
-396:54:40 Tab165 StartNav2480 #typed
-396:54:40 Tab165 FinishNav2480 ERR_FILE_NOT_FOUND
-396:54:40 Tab165 PageLoad
-396:54:42 Tab165 StartNav2481 #typed
-396:54:42 Tab165 FinishNav2481 ERR_FILE_NOT_FOUND
-396:54:42 Tab165 PageLoad
-396:54:53 Tab165 StartNav2482 #typed
-396:54:53 Tab165 FinishNav2482 ERR_FILE_NOT_FOUND
-396:54:53 Tab165 PageLoad
-396:55:03 Tab165 StartNav2483 #typed
-396:55:03 Tab165 FinishNav2483 ERR_FILE_NOT_FOUND
-396:55:03 Tab165 PageLoad
-396:56:00 Tab165 StartNav2484 #typed
-396:56:00 Tab165 FinishNav2484 ERR_FILE_NOT_FOUND
-396:56:00 Tab165 PageLoad
-396:56:03 Tab117 StartNav2485 #typed
-396:56:03 Tab117 FinishNav2485 ERR_FILE_NOT_FOUND
-396:56:03 Tab117 PageLoad
-396:56:04 Tab117 StartNav2486 #typed
-396:56:04 Tab117 FinishNav2486 ERR_FILE_NOT_FOUND
-396:56:04 Tab117 PageLoad
-396:56:05 Tab117 StartNav2487 #typed
-396:56:05 Tab117 FinishNav2487 ERR_FILE_NOT_FOUND
-396:56:05 Tab117 PageLoad
-396:56:06 Tab117 StartNav2488 #typed
-396:56:06 Tab117 FinishNav2488 ERR_FILE_NOT_FOUND
-396:56:06 Tab117 PageLoad
-396:56:09 Tab117 StartNav2489 #typed
-396:56:09 Tab117 FinishNav2489 ERR_FILE_NOT_FOUND
-396:56:09 Tab117 PageLoad
-396:56:11 Tab117 StartNav2490 #typed
-396:56:11 Tab117 FinishNav2490 ERR_FILE_NOT_FOUND
-396:56:11 Tab117 PageLoad
-396:56:14 Tab117 StartNav2491 #typed
-396:56:14 Tab117 FinishNav2491 ERR_FILE_NOT_FOUND
-396:56:14 Tab117 PageLoad
-396:56:15 Tab117 StartNav2492 #typed
-396:56:15 Tab117 FinishNav2492 ERR_FILE_NOT_FOUND
-396:56:15 Tab117 PageLoad
-396:56:17 Tab117 StartNav2493 #typed
-396:56:17 Tab117 FinishNav2493 ERR_FILE_NOT_FOUND
-396:56:17 Tab117 PageLoad
-396:56:18 Tab117 StartNav2494 #typed
-396:56:18 Tab117 FinishNav2494 ERR_FILE_NOT_FOUND
-396:56:18 Tab117 PageLoad
-396:56:20 Tab117 StartNav2495 #typed
-396:56:20 Tab117 FinishNav2495 ERR_FILE_NOT_FOUND
-396:56:20 Tab117 PageLoad
-396:56:22 Tab117 StartNav2496 #typed
-396:56:22 Tab117 FinishNav2496 ERR_FILE_NOT_FOUND
-396:56:22 Tab117 PageLoad
-396:56:25 Tab117 StartNav2497 #typed
-396:56:25 Tab117 FinishNav2497 ERR_FILE_NOT_FOUND
-396:56:25 Tab117 PageLoad
-396:56:28 Tab117 StartNav2498 #typed
-396:56:28 Tab117 FinishNav2498 ERR_FILE_NOT_FOUND
-396:56:28 Tab117 PageLoad
-396:56:31 Tab117 StartNav2499 #typed
-396:56:31 Tab117 FinishNav2499 ERR_FILE_NOT_FOUND
-396:56:31 Tab117 PageLoad
-396:56:36 Tab117 StartNav2500 #typed
-396:56:36 Tab117 FinishNav2500 ERR_FILE_NOT_FOUND
-396:56:36 Tab117 PageLoad
-396:56:45 Tab165 StartNav2501 #typed
-396:56:45 Tab165 FinishNav2501 ERR_FILE_NOT_FOUND
-396:56:45 Tab165 PageLoad
-396:57:25 Tab117 StartNav2502 #typed
-396:57:25 Tab117 FinishNav2502 ERR_FILE_NOT_FOUND
-396:57:25 Tab117 PageLoad
-396:57:28 Tab117 StartNav2503 #typed
-396:57:28 Tab117 FinishNav2503 ERR_FILE_NOT_FOUND
-396:57:28 Tab117 PageLoad
-397:00:06 Tab165 StartNav2504 #typed
-397:00:06 Tab165 FinishNav2504 ERR_FILE_NOT_FOUND
-397:00:06 Tab165 PageLoad
-397:00:12 Tab165 StartNav2505 #typed
-397:00:12 Tab165 FinishNav2505 ERR_FILE_NOT_FOUND
-397:00:12 Tab165 PageLoad
-397:00:15 Tab165 StartNav2506 #typed
-397:00:15 Tab165 FinishNav2506 ERR_FILE_NOT_FOUND
-397:00:15 Tab165 PageLoad
+398:09:56 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+398:09:56 Microsoft.Shutdown.TabStripModel.CloseAllTabs
+398:09:56 Microsoft.Shutdown.TabStripModel.CloseTabs
+398:09:56 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+398:09:56 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+398:09:56 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+398:09:56 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+398:09:56 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+398:09:56 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+398:09:56 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+398:09:56 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+398:09:56 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+398:09:56 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+398:09:56 Microsoft.UnloadController.ClearUnloadState
+398:09:56 Browser174 Close Tab174 at 0
+398:09:56 Tab174 WebContentsDestroyed
+398:09:56 Microsoft.UnloadController.TabStripEmpty
+398:09:56 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+398:09:56 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+398:09:56 Microsoft.Shutdown.OnWindowClosing
+398:09:56 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+398:09:56 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+398:09:56 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+398:09:56 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+398:09:56 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+398:09:56 Widget Closed: BrowserWidget
+398:09:56 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+398:09:56 Microsoft.Shutdown.OnWindowClosing
+398:09:56 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+398:09:56 Microsoft.Browser_Removed
+398:14:09 Microsoft.NewBrowser_Popup
+398:14:09 Microsoft.BrowserList.AddBrowser
+398:14:09 Browser175 Insert active Tab175 at 0
+398:14:09 Tab175 StartNav2636 #auto_toplevel
+398:14:09 Tab175 StartNav2637 #typed
+398:14:09 Tab175 FinishNav2636
+398:14:09 Tab175 PageLoad
+398:14:09 Tab175 FinishNav2637 ERR_FILE_NOT_FOUND
+398:14:09 Tab175 PageLoad
+398:14:10 Tab175 StartNav2638 #typed
+398:14:10 Tab175 FinishNav2638 ERR_FILE_NOT_FOUND
+398:14:10 Tab175 PageLoad
+398:14:12 Tab175 StartNav2639 #typed
+398:14:12 Tab175 FinishNav2639 ERR_FILE_NOT_FOUND
+398:14:12 Tab175 PageLoad
+398:14:15 Tab175 StartNav2640 #typed
+398:14:15 Tab175 FinishNav2640 ERR_FILE_NOT_FOUND
+398:14:15 Tab175 PageLoad
+398:14:15 Tab175 StartNav2641 #typed
+398:14:15 Tab175 FinishNav2641 ERR_FILE_NOT_FOUND
+398:14:15 Tab175 PageLoad
+398:14:19 Tab175 StartNav2642 #typed
+398:14:19 Tab175 FinishNav2642 ERR_FILE_NOT_FOUND
+398:14:19 Tab175 PageLoad
+398:14:24 Tab175 StartNav2643 #typed
+398:14:24 Tab175 FinishNav2643 ERR_FILE_NOT_FOUND
+398:14:24 Tab175 PageLoad
+398:14:43 Tab175 StartNav2644 #typed
+398:14:43 Tab175 FinishNav2644 ERR_FILE_NOT_FOUND
+398:14:43 Tab175 PageLoad
+398:14:49 Tab175 StartNav2645 #typed
+398:14:49 Tab175 FinishNav2645 ERR_FILE_NOT_FOUND
+398:14:49 Tab175 PageLoad
