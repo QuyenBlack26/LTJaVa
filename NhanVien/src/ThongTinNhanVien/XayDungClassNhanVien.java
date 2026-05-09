@@ -88,14 +88,16 @@ public class XayDungClassNhanVien
 	            {
 	                System.out.println(nv.getHo() + " " + nv.getTen() + " & So Luong San pham : " + nv.getLuong());
 	            }
-
-	            if (ds.length >= 2)
+	            int lon =0;
+// phan nay can sua 
+	            for (int i=0; i < ds.length ; i++)
 	            {
 	                if (ds[0].LonHon(ds[1]))
-	                    System.out.println("NV" +ds.length +" nhieu san pham hon NV" + ds.length);
+	                	System.out.println("NV" +ds +" nhieu san pham hon NV" + ds.length);
 	                else
 	                    System.out.println("NV" +ds.length +" nhieu san pham hon NV" + ds.length);
 	            }
+	            
 
 	        }
 	        catch (Exception e)
@@ -109,6 +111,5 @@ public class XayDungClassNhanVien
 	        }
 
 	}
-
 
 }
