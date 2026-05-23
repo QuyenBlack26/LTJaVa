@@ -1,24 +1,27 @@
-CREATE TABLE BOOK.AUTHORS
+CREATE DATABASE BOOK;
+USE BOOK;
+CREATE TABLE book.authors 
 (
-	AuthorID INT NOT NULL AUTO_INCREMENT,
-    firstName VARCHAR(20) NOT NULL,
-    lastName VARCHAR(30) NOT NULL,
-    PRIMARY KEY ( AuthorID )
+  authorID INT NOT NULL AUTO_INCREMENT,
+  firstName varchar(20) NOT NULL,
+  lastName varchar(30) NOT NULL,
+  PRIMARY KEY (authorID)
 );
 
-CREATE TABLE BOOK.TILTLES
+CREATE TABLE book.titles
 (
-	ISBN VARCHAR(20) NOT NULL,
-    TiTle VARCHAR(100) NOT NULL,
-	EdiltionNumber INT NOT NULL,
-    CopyRight VARCHAR(4),
-    PRIMARY KEY (ISBN)
+	isbn varchar(20) NOT NULL,
+    title varchar(100) NOT NULL,
+    editionNumber INT NOT NULL,
+    copyright varchar(4) NOT NULL,
+    PRIMARY KEY (isbn)
 );
 
-CREATE TABLE BOOK.AUTHORLSBN
+CREATE TABLE book.authoriSBN
 (
-	Authour INT NOT NULL ,
-	ISBN VARCHAR(20) NOT NULL,
-    FOREIGN KEY (AuthorID) REFERENCES BOOK.AUTHORS(AuthorID),
-        FOREIGN KEY (ISBN) REFERENCES BOOK.TILTLES(ISBN)
+  authorID INT NOT NULL,
+  isbn varchar(20) NOT NULL,
+  FOREIGN KEY (authorID) REFERENCES book.authors(authorID),
+  FOREIGN KEY (isbn) REFERENCES book.titles(isbn)
 );
+
